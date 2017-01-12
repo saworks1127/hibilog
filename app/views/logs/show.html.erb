@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Calender:</strong>
+  <%= @log.calender_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @log.user_id %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @log.content %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @log.type %>
+</p>
+
+<%= link_to 'Edit', edit_log_path(@log) %> |
+<%= link_to 'Back', logs_path %>

@@ -1,0 +1,19 @@
+current directory: /var/www/html/hibilog/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+/usr/local/rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170112-30696-n0by3o.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/html/hibilog/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /var/www/html/hibilog/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling context.c
+compiling locker.c
+compiling breakpoint.c
+compiling byebug.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /var/www/html/hibilog/vendor/bundle/ruby/2.3.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20170112-30696-1pp27q4/byebug

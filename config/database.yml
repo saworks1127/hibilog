@@ -13,13 +13,12 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: root
-  password:
-  socket: /var/lib/mysql/mysql.sock
+  username: sayami
+  password: sayami
 
 development:
   <<: *default
-  database: hibilog_development
+  database: hibilog_dev
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -49,6 +48,6 @@ test:
 #
 production:
   <<: *default
-  database: hibilog_production
+  database: rails4_sample
   username: hibilog
   password: <%= ENV['HIBILOG_DATABASE_PASSWORD'] %>
